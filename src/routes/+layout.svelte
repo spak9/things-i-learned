@@ -2,6 +2,8 @@
     import "../app.css"
 </script>
 
+<slot></slot>
+
 <nav class="bg-white border-gray-200 top-0 start-0 w-full fixed">
     <div class="items-center justify-between hidden w-full md:flex md:w-auto md:order-1 p-3" id="navbar-sticky">
     <ul class="flex list-none">
@@ -17,5 +19,3 @@
     </ul>
     </div>
 </nav>
-
-<slot></slot>
